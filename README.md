@@ -6,7 +6,7 @@
 [![dependencies Status](https://david-dm.org/freddiefujiwara/broadlinkjs-rm-cli/status.svg)](https://david-dm.org/freddiefujiwara/broadlinkjs-rm-cli)
 
 # broadlinkjs-rm-cli
-Command line client for chromeless
+Command line client for broadlink rm 
 
 ## Requirements
 
@@ -17,10 +17,21 @@ Command line client for chromeless
 ```bash
 npm i -g broadlinkjs-rm-cli
 ```
+## Preparation
+$HOME/.broadlinkjs.config.js
+```javascript
+module.exports = {
+    "heat": "[Infrared signal of air conditioner's heating button]",
+    "cool": "[Infrared signal of air conditioner's cooling button]",
+    "airoff": "[Infrared signal of air conditioner's off button]",
+    "tv_on": "[Infrared signal of television power supply]",
+    "light": "[Infrared signal of light]"
+};
+```
 
 ## Usage
 ```bash                                                                                     
-  Usage: broadlinkjs-rm-cli <host> <text>                                                                                    
+  Usage: broadlinkjs-rm-cli <host> <command>                                                                                    
                                                                                                                          
                                                                                                                                
                                                                                                                                
@@ -32,7 +43,7 @@ npm i -g broadlinkjs-rm-cli
 
 ## Example
 ```bash
-broadlinkjs-rm-cli 192.168.1.101 "Hello I'm Freddie"
+broadlinkjs-rm-cli 192.168.1.101 tv_on
 ```
 
 ## FAQ
