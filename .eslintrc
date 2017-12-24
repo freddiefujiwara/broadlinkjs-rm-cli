@@ -1,0 +1,9 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "mocha": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8 // or 2017
+  }
+}
