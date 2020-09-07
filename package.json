@@ -1,6 +1,6 @@
 {
     "name": "broadlinkjs-rm-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Command line client for chromeless",
     "scripts": {
         "clean": "rimraf lib",
@@ -56,7 +56,7 @@
         "rimraf": "^2.6.1"
     },
     "dependencies": {
-        "broadlinkjs-rm": "^0.2.0",
+        "broadlinkjs-rm": "^0.7.6",
         "commander": "^2.11.0",
         "semver": "^5.4.1"
     },
