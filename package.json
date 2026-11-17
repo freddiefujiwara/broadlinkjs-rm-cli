@@ -33,7 +33,7 @@
         "speaker",
         "google-home"
     ],
-    "author": "Fumikazu Fujiwara <npm@ze.gs> (http://freddiefujiwara.com)",
+    "author": "Fumikazu Fujiwara (http://freddiefujiwara.com)",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/freddiefujiwara/broadlinkjs-rm-cli/issues"
